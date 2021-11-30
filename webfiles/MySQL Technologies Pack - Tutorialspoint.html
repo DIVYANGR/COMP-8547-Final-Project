@@ -1,0 +1,465 @@
+<!doctype html>
+<html>
+ <head> 
+  <title>
+					MySQL Technologies Pack - Tutorialspoint
+			</title> 
+  <meta name="description" content="Prime Pack include Online Video Courses and eBooks"> 
+  <meta name="keywords" content="Prime Pack Online,Video Courses,eBooks"> 
+  <!-- Facebook Pixel Code --> 
+  <script>
+         !function(f,b,e,v,n,t,s)
+         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+         if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+         n.queue=[];t=b.createElement(e);t.async=!0;
+         t.src=v;s=b.getElementsByTagName(e)[0];
+         s.parentNode.insertBefore(t,s)}(window, document,'script',
+         'https://connect.facebook.net/en_US/fbevents.js');
+         fbq('init', '632795514166891');
+         fbq('track', 'PageView');
+	 </script> 
+  <noscript>
+   &lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=632795514166891&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;
+  </noscript> 
+  <!-- End Facebook Pixel Code --> 
+  <!-- Google Analytics Code --> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-232293-1"></script> 
+  <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-232293-1');
+	 </script> 
+  <meta name="google-site-verification" content="a3lTjqnrYy0FULTFuVXuYcpoVYUK9PpZO9TlkgCqiO8"> 
+  <!-- Google Analytics Code End  --> 
+  <!-- Global site tag (gtag.js) - Google Ads: 664793816 --> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-664793816"></script> 
+  <script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'AW-664793816');
+	</script> 
+  <!-- Global site tag End --> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <meta name="csrf-token" content="Wi7NMY58dQWFLu8hiIRNhpNu3x95P3co0Y7Ndjti"> 
+  <!--Farmework CSS--> 
+  <link rel="stylesheet" href="/market/public/assets/css/toastr.css" integrity=""> 
+  <link rel="stylesheet" type="text/css" href="/market/public/assets/css/mui/mui.min.css"> 
+  <link rel="stylesheet" type="text/css" href="/market/public/assets/css/mui/custom.css?v=1638282344"> 
+  <!--Farmework JS--> 
+  <script src="/market/public/assets/js/mui/fontawesome.js?v=1638282344"></script> 
+ </head>
+ <body>
+  <div class="wrap_loader" style="height:5304px;"> 
+   <div class="imgLoader">
+    <img src="/market/public/assets/images/loader.gif" alt="Tutorialspoint" width="70" height="70">
+   </div> 
+  </div> 
+  <div id=""> 
+   <div class="site-message" id="site-message-div" style="display:none;">
+     Biggest Price Drop | Don't Miss Our 
+    <b>Black Friday - Cyber Monday</b> Sale 
+    <a href="javascript:void(0);" class="site-message-close" id="ancCloseTopMsg"><i class="fa fa-times" title="close"></i> </a> 
+    <div>
+     Sales Ends on 3rd December
+    </div> 
+    <!--<div class="site-timer" >Sale Ends In  <span id="site-timer"></span></div>--> 
+   </div> 
+   <header class="mui-appbar mui--z1"> 
+    <div class="mui-container"> 
+     <table> 
+      <tbody> 
+       <tr class="mui--appbar-height"> 
+        <td class="mui--text-title"> <a href="javascript:void(0);" class="m-menubar show-sidewrap"><i class="fa fa-bars"></i></a> 
+         <div class="appbar-brand">
+          <a href="https://www.tutorialspoint.com/index.htm" class="logo"> <img src="/market/public/assets/images/logo-diamond.png" class="diadmond-logo" alt="Tutorialspoint - Simply Easy Learning" title="Tutorialspoint - Simply Easy Learning"> <span><img src="/market/public/assets/images/logo.png" alt="Tutorialspoint - Simply Easy Learning" title="Tutorialspoint - Simply Easy Learning" class="text-logo"></span></a> 
+         </div> 
+         <nav> 
+          <ul class=""> 
+           <!--<li><a href="https://www.tutorialspoint.com/tutorialslibrary.htm" title="Text Tutorials" class=""><i class="fa fa-books"></i>&nbsp;Library</a></li>--> 
+           <li><a href="https://www.tutorialspoint.com/market/index.php" title="Video Courses" class=""><i class="fa fa-video"></i>&nbsp;Courses</a></li> 
+           <li><a href="https://www.tutorialspoint.com/latest/ebooks" title="eBooks" class=""><i class="fa fa-book-reader"></i>&nbsp;eBooks</a></li> 
+           <li><a href="https://www.tutorialspoint.com/latest/prime-packs" title="Prime Packs" class=""><i class="fa fa-cubes"></i>&nbsp;Prime Packs</a></li> 
+           <li><a href="https://www.tutorialspoint.com/market/business/index.jsp" title="Tutorialspoint for Business" class=""><i class="fa fa-handshake"></i>&nbsp;Business</a></li> 
+          </ul> 
+         </nav> </td> 
+        <td class="mui--text-right"> <a href="javascript:void(0);" class="m-search m-searchbar"><i class="fa fa-search"></i></a> 
+         <div class="search-box-wrap"> 
+          <div class="search-box" style=""> 
+           <div> 
+            <input class="input search-strings" type="text" data-result="search-results" name="key" placeholder="Search courses, ebooks and prime packs..." autocomplete="off"> 
+            <button id="btnSearch"><i class="fa fa-search" title="Search"></i> </button> 
+           </div> 
+          </div> 
+          <div class="search-box" id="search-results" style="display:none;"></div> 
+          <div class="clear"></div> 
+         </div> 
+         <div class="menu-right-head"> 
+         </div> </td> 
+       </tr> 
+      </tbody> 
+     </table> 
+    </div> 
+    <!-- mobile search bar --> 
+    <div class="search-bar-wrap"> 
+     <input type="text" class="search-strings" data-result="mobile-result" placeholder="Search course, ebooks and prime packs" autofocus> 
+     <a href="javascript:void(0);" class="closed"><i class="fa fa-times"></i></a> 
+     <div class="search-box" id="mobile-result" style="display:none;"></div> 
+    </div> 
+    <!-- end of mobile search bar --> 
+    <!-- mobile view top navigation --> 
+    <div class="without-login-sidewrap"> 
+     <ul> 
+      <a href="javascript:void(0);" class="close-login-wrap"><i class="fa fa-times"></i></a> 
+      <li><a href="https://www.tutorialspoint.com/market/login.jsp?v=2.1" class="m-login"><i class="fa fa-sign-in-alt"></i> &nbsp;Login</a></li> 
+      <li><a href="https://www.tutorialspoint.com/market/signup.jsp" class="m-login"> <i class="fa fa-sign-out"></i> &nbsp;Sign up</a></li> 
+      <li><a href="https://www.tutorialspoint.com/tutorialslibrary.htm" title="Text Tutorials" class=""><i class="fa fa-books"></i>&nbsp;Library</a></li> 
+      <li><a href="https://www.tutorialspoint.com/courses" title="Video Courses" class=""><i class="fa fa-video"></i>&nbsp;Courses</a></li> 
+      <li><a href="https://www.tutorialspoint.com/ebooks" title="eBooks" class=""><i class="fa fa-book-reader"></i>&nbsp;eBooks</a></li> 
+      <li><a href="https://www.tutorialspoint.com/prime-packs" title="Prime Packs" class=""><i class="fa fa-cubes"></i>&nbsp;Prime Packs</a></li> 
+     </ul> 
+    </div> 
+    <!-- end of mobile view top navigation --> 
+   </header> 
+   <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="6RAQP-S44QZ-RE8AD-YSYWA-P84NW",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"6RAQP-S44QZ-RE8AD-YSYWA-P84NW";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="fiaqj6ackeok6kqce3ygyaaaabq2mndi-f-cb07df6e9-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"32","ak.cp":"1243695","ak.ai":parseInt("747244",10),"ak.ol":"0","ak.cr":8,"ak.ipv":6,"ak.proto":"http/1.0","ak.rid":"47df69a4","ak.r":31712,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.bpcip":"2a01:4f8:251:1caf::","ak.cport":38250,"ak.gh":"2.16.186.20","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1638282344","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==iYFnm7GLosJIEzixWnvlTD8olne2z2q4T5K74r9W0koxgdS+myN8QSNHBr7pCCHKvDvPDvoN5cRoffiS2vmnlO3e+5HAOhyLgSaLAshhJXY8IZwyxBRuZkKW+gGhh+latmp7WpbkIKI+pe0O12IDczEdHlvPQ/tfRw7t/uH9I437+erbxepXhiqs1YDA2JzZQYyCR+tMdxDTk11drEAvDEHqcPRf6YHv9pOP5LuHSJz6UW6ch9u/fcPiXRCIXLaFbV7GoSdkxf7Yix9Shab6P5KXZWqQScm3nh1CH2nnBk9+ruF3jkZwilV5kcd+Kt2kqZg1MKT+StEgQIxc3LEGGHjjxb9sarDcsv+1KkzQ1XZJ4IzlzFnv479ikNQgTJNUKHwzMO4hyly9h2isuziIasvOV+mrGi39X61IcKBpeGU=","ak.pv":"9","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script> 
+   <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="6RAQP-S44QZ-RE8AD-YSYWA-P84NW",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"6RAQP-S44QZ-RE8AD-YSYWA-P84NW";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="da42welipqfisyngszjq-f-fb17e6de0-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"32","ak.cp":"1243695","ak.ai":parseInt("747244",10),"ak.ol":"0","ak.cr":44,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"347c1c42","ak.r":36126,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.bpcip":"24.57.171.0","ak.cport":59639,"ak.gh":"104.124.10.133","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1638307411","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==bxG9NPX2AIdWLt7lbXHxnTWVsvdeRjVzOGzleg7yx0/ebuRC/I/XmULgF+YlUgykJ578IaFibwUUDmJQ0nR7mSYvh5li1rBVOlAGU7NLBMmedooinRi1qhKWSYagj+HU8q2N02RrGBgOyblfb6oqRI+1qwf3clSsNGN+qCUwmM23t4V7l6xlTHKU3VIXISLfK3qI+FcoXJfDZBh29R8BSZFc84xSbqF07/4js2OV9ezyNXOosFIRfgz31iIMCBk2BIRZsAWFnG0nubwkOUMhm+SLHoNg8xPbP+NqWhfQMj+SAiEtgu2bCLKDQif9OKsK3IeV/9Seu8qLNqd1ZIuHWWoB3ZA5b6LToOAKFY3FCjsND8kPT5PTkZZN9/C8hxmXjsyaXUB0npscQBo1SI6z3sOok0CAVdZLSneFvUdanEk=","ak.pv":"10","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script>  
+   <div class="content-top"> 
+    <style>.ribbon-V{position:absolute; top:-19.1px; right:33px;} .ribbon-E{position:absolute; top:-19.1px; right:33px;}</style> 
+    <div class="videos-bg"> 
+     <div class="mui-container"> 
+      <div class="row"> 
+       <div class="mui-col-lg-8 mui-col-md-8 mui-col-sm-12 mui-col-xs-12"> 
+        <div class="course-details-wrapper"> 
+         <div class="p-sm-0"> 
+          <div class="course-details"> 
+           <h1>MySQL Technologies Pack</h1> 
+           <div class="sub-title-h1">
+            Get a Hands-On experience of MySQL with 6 Courses &amp; an E-Book
+           </div> 
+           <div class="course-details-info"> 
+            <p class="h24"><i class="fa fa-user"></i> <a href="https://www.tutorialspoint.com/profile/tutorialspoint_com">&nbsp;&nbsp;Tutorialspoint</a></p> 
+           </div> 
+          </div> 
+         </div> 
+         <ul class="mui-tabs__bar"> 
+          <li class="mui--is-active"><a data-mui-toggle="tab" data-mui-controls="pane-default-1">Prime Pack Content</a></li> 
+          <li class=""><a data-mui-toggle="tab" data-mui-controls="pane-default-2">Overview</a></li> 
+         </ul> 
+         <div id="course-intro-tab"> 
+          <div class="mui-tabs__pane mui--is-active" id="pane-default-1"> 
+           <div class="course-curriculum"> 
+            <!-- New Design flow --> 
+            <div class="section-division"> 
+             <div class="collapsible-header"> 
+              <a href="javascript:void(0);" class="uk-accordion-title course_content" data-item="4711" data-load="0"> Relational Database Design Essentials <i class="fa fa-chevron-down uk-caret"></i> 
+               <div class="ribbon-V">
+                <span>Video</span>
+               </div> <br> 
+               <div class="lec-total-count"> 
+                <span><b>27</b> &nbsp;Lectures</span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>2 hr 51 min</b></span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>3</b>&nbsp; Preview Lectures</span> 
+               </div> </a> 
+             </div> 
+             <div class="collapsible-body" style="display:none;"> 
+              <div class="wrap-view"> 
+               <div class="imgLoader"> 
+                <img src="/market/public/assets/images/loader.gif" alt="Tutorialspoint" width="70" height="70"> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="section-division"> 
+             <div class="collapsible-header"> 
+              <a href="javascript:void(0);" class="uk-accordion-title course_content" data-item="4721" data-load="0"> Learn MySQL - For Beginners <i class="fa fa-chevron-down uk-caret"></i> 
+               <div class="ribbon-V">
+                <span>Video</span>
+               </div> <br> 
+               <div class="lec-total-count"> 
+                <span><b>27</b> &nbsp;Lectures</span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>1 hr 27 min</b></span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>3</b>&nbsp; Preview Lectures</span> 
+               </div> </a> 
+             </div> 
+             <div class="collapsible-body" style="display:none;"> 
+              <div class="wrap-view"> 
+               <div class="imgLoader"> 
+                <img src="/market/public/assets/images/loader.gif" alt="Tutorialspoint" width="70" height="70"> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="section-division"> 
+             <div class="collapsible-header"> 
+              <a href="javascript:void(0);" class="uk-accordion-title course_content" data-item="2951" data-load="0"> Basic Concepts of MySQL Database <i class="fa fa-chevron-down uk-caret"></i> 
+               <div class="ribbon-V">
+                <span>Video</span>
+               </div> <br> 
+               <div class="lec-total-count"> 
+                <span><b>42</b> &nbsp;Lectures</span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>13 hr 20 min</b></span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>5</b>&nbsp; Preview Lectures</span> 
+               </div> </a> 
+             </div> 
+             <div class="collapsible-body" style="display:none;"> 
+              <div class="wrap-view"> 
+               <div class="imgLoader"> 
+                <img src="/market/public/assets/images/loader.gif" alt="Tutorialspoint" width="70" height="70"> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="section-division"> 
+             <div class="collapsible-header"> 
+              <a href="javascript:void(0);" class="uk-accordion-title course_content" data-item="2555" data-load="0"> Learn Database Design with MySQL <i class="fa fa-chevron-down uk-caret"></i> 
+               <div class="ribbon-V">
+                <span>Video</span>
+               </div> <br> 
+               <div class="lec-total-count"> 
+                <span><b>31</b> &nbsp;Lectures</span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>6 hr 14 min</b></span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>4</b>&nbsp; Preview Lectures</span> 
+               </div> </a> 
+             </div> 
+             <div class="collapsible-body" style="display:none;"> 
+              <div class="wrap-view"> 
+               <div class="imgLoader"> 
+                <img src="/market/public/assets/images/loader.gif" alt="Tutorialspoint" width="70" height="70"> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="section-division"> 
+             <div class="collapsible-header"> 
+              <a href="javascript:void(0);" class="uk-accordion-title course_content" data-item="2695" data-load="0"> Database Management Systems - MySQL <i class="fa fa-chevron-down uk-caret"></i> 
+               <div class="ribbon-V">
+                <span>Video</span>
+               </div> <br> 
+               <div class="lec-total-count"> 
+                <span><b>6</b> &nbsp;Lectures</span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>3 hr 45 min</b></span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>0</b>&nbsp; Preview Lectures</span> 
+               </div> </a> 
+             </div> 
+             <div class="collapsible-body" style="display:none;"> 
+              <div class="wrap-view"> 
+               <div class="imgLoader"> 
+                <img src="/market/public/assets/images/loader.gif" alt="Tutorialspoint" width="70" height="70"> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="section-division"> 
+             <div class="collapsible-header"> 
+              <a href="javascript:void(0);" class="uk-accordion-title course_content" data-item="2912" data-load="0"> MySQL Database Development Mastery <i class="fa fa-chevron-down uk-caret"></i> 
+               <div class="ribbon-V">
+                <span>Video</span>
+               </div> <br> 
+               <div class="lec-total-count"> 
+                <span><b>25</b> &nbsp;Lectures</span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>4 hr 19 min</b></span>&nbsp;&nbsp;|&nbsp;&nbsp; 
+                <span><b>3</b>&nbsp; Preview Lectures</span> 
+               </div> </a> 
+             </div> 
+             <div class="collapsible-body" style="display:none;"> 
+              <div class="wrap-view"> 
+               <div class="imgLoader"> 
+                <img src="/market/public/assets/images/loader.gif" alt="Tutorialspoint" width="70" height="70"> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="section-division"> 
+             <div class="collapsible-header"> 
+              <a href="javascript:void(0);" class="uk-accordion-title course_content" data-item="437" data-load="1"> MySQL Tutorial <i class="fa fa-chevron-down uk-caret"></i> 
+               <div class="ribbon-E">
+                <span>Ebook</span>
+               </div> <br> 
+               <div class="lec-total-count"> 
+                <span>93 Pages</span> 
+               </div> </a> 
+             </div> 
+             <div class="collapsible-body" style="display:none;"> 
+              <ul class="course-curriculum-list"> 
+               <li> <i class="fa fa-file-pdf"></i> MySQL Tutorial <a href="/ebook/mysql_tutorial/index.asp" target="_blank" class="preview_book rounded" data-ebook="437" data-name="MySQL Tutorial" data- type="ebook" data-title="mysql_tutorial"> Preview</a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <!-- Overview  --> 
+          <div class="mui-tabs__pane mrgn-t25" id="pane-default-2"> 
+           <div class="mui-panel course-description-content rounded shadow"> 
+            <div class=""> 
+             <h4> Description </h4> 
+             <p></p>
+             <p><strong>Overview:</strong></p>
+             <p>Learn SQL from Basic MySQL Database Operations to Database Management Systems - MySQL, Fundamental Database Development Techniques with MySQL Server And Workbench, Oracle SQL Data Modeler, Data Modelling and Design, SQL Essentials.</p>
+             <p><br></p>
+             <ul>
+              <li>6 Modules</li>
+              <li>158+ Lectures</li>
+              <li>30+ Hrs HD Videos</li>
+              <li>Course Designed by Industry Experts</li>
+              <li>Up-to-Date Curriculum</li>
+              <li>1 eBook</li>
+              <li>Full Lifetime Access</li>
+              <li>30 Days Refund Policy</li>
+              <li>Certificate on Completion</li>
+             </ul>
+             <p><br></p>
+             <p><strong>About Premium Pack:</strong></p>
+             <p>Welcome to our SQL Premium Pack. We have designed our courses in such a way that individuals can get the insights to turn raw data into actionable insights. Our Course is not only for &nbsp;software engineers and system administrators and it also helps analysts to gain important insights into new marketplaces and make more informed strategic decisions.</p>
+             <p><br></p>
+             <p><strong>Scope of SQL:</strong></p>
+             <ul>
+              <li>SQL is a massive technology and it is not permitted in computer science and can be seen in &nbsp;Retail, Finance, Healthcare, Science &amp; Technology, Public Sector.</li>
+              <li>Average SQL Developer earns $88,334 per year.</li>
+              <li>SQL ( Structured Query Language ) is Needed for Data Scientists to get the data and to work with that data.</li>
+             </ul>
+             <p></p> 
+             <h4> Goals </h4> 
+             <ul style="list-style-type: circle;">
+              <li>Database Design Process, Normalization, Database Development using MySQL</li>
+              <li>Master SQL using PHP</li>
+              <li>Understand and develop business process models( data flow diagrams) through Oracle SQL modeler.</li>
+              <li>Basics of MySQL Database and Syntax</li>
+              <li>Effective creation of Process models, Logical data models and Relational data models</li>
+              <li>Database Normalization with Examples - 1st, 2nd and 3rd form of Normalization</li>
+              <li>MySQL Database Administration and PhpMyAdmin Fundamentals</li>
+              <li>MySQL Security and Root Superuser and Updating Data in MySQL DB</li>
+              <li>Fundamentals and Overview of DBMS course</li>
+              <li>Database Design - Beginner to Advance Level</li>
+             </ul> 
+             <h4> Prerequisites </h4> 
+             <ul style="list-style-type: circle;">
+              <li>Basic Computer Skills</li>
+              <li>Basic Mathematics skills might be beneficial</li>
+              <li>Understanding of Basic web terminology</li>
+              <li>A Reliable Computer</li>
+             </ul> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+       </div> 
+       <!-- Right Sticcky  --> 
+       <div class="mui-col-lg-4 mui-col-md-4 mui-col-sm-12 mui-col-xs-12 right-card" id="rateCard"> 
+        <div class="video-card rounded shadow"> 
+         <div class="video-card-thumbnail details-img"> 
+          <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/4938/course_4938_image.jpg" class="rounded-img" alt="MySQL Technologies Pack" title="MySQL Technologies Pack"> 
+          <a class="prime-icon-trigger show" href="#"></a> 
+         </div> 
+         <div class="clear"></div> 
+         <div class="p-3"> 
+          <div class="uk-text-bold">
+           This Prime Pack Includes : 
+           <div class="uk-wishlist-anchor">
+            <a href="javascript:void(0)" data-course_id="4938" class="uk-wishlist-anchor wishlist rounded transition-3d-hover"><i class="fa fa-heart-solid"></i></a>
+           </div> 
+          </div> 
+          <div class="icons-svg"> 
+           <p><i class="fa fa-clock"></i></p>32 hours 
+          </div> 
+          <div class="clear"></div> 
+          <div class="icons-svg"> 
+           <p><i class="fa fa-play-circle"></i></p>6 Video Courses 
+          </div> 
+          <div class="clear"></div> 
+          <div class="icons-svg"> 
+           <p><i class="fa fa-file-pdf"></i></p>1 eBooks 
+          </div> 
+          <div class="clear"></div> 
+          <div class="icons-svg"> 
+           <p><i class="fa fa-infinity"></i></p>Lifetime Access 
+          </div> 
+          <div class="clear"></div> 
+          <div class="mobile-view" id="mobile-view"> 
+           <div class="ebook-price-card"> 
+            <div class="ebook-price" style="display: none"> 
+             <div class="">
+               Price - 
+              <b><span class="price" data-usd="44.99" data-inr="1799.99" data-cad="59.99" data-aud="59.99" data-gbp="44.99" data-eur="44.99" data-jpy="5999.99"></span></b> 
+              <strike>
+               <span class="actual-price" data-usd="399.99" data-inr="19999.99" data-cad="489.99" data-aud="510.99" data-gbp="289.99" data-eur="330.99" data-jpy="41999.99"></span>
+              </strike> 
+             </div> 
+             <div class="ebook-discount"> 
+              <span>You Save</span> 
+              <b><span class="discount-amount" data-usd="355" data-inr="18200" data-cad="430" data-aud="451" data-gbp="245" data-eur="286" data-jpy="36000"></span></b> 
+              <span class="ebook-off rounded" data-usd="89" data-inr="91" data-cad="88" data-aud="88" data-gbp="84" data-eur="86" data-jpy="86" style="display:none"></span> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="mui-col-md-12 mui-col-sm-12 np"> 
+            <div class="button_content"> 
+             <div class="mui-col-md-12 mui-col-sm-12 add_to_cart_div np"> 
+              <div class="row"> 
+               <div class="mui-lg-6 mui-col-md-6 mui-col-sm-6 mui-col-xs-6 text-left npr"> 
+                <button class="btn btn-cart btn-100 add_to_cart rounded" data-course_id="4938" data-redirect="0"><i class="fa fa-shopping-cart"></i> Add to Cart</button> 
+               </div> 
+               <div class="mui-lg-6 mui-col-md-6 mui-col-sm-6 mui-col-xs-6 text-left npl"> 
+                <button class="btn btn-success btn-100 add_to_cart rounded" data-course_id="4938" data-redirect="1"><i class="fa fa-check"></i> Buy Now</button> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="right-card"> 
+    </div> 
+    <script>
+	const course = 4938;
+	const cloudUrl = "https://cdn.tutorialspoint.com/video_tutorials/";
+	const videoName = '/playlist.m3u8';
+</script> 
+   </div> 
+  </div> 
+  <div class="clear"></div> 
+  <div class="footer"> 
+   <div class="mui-container"> 
+    <div class="text-center"> 
+     <a href="https://www.tutorialspoint.com/index.htm" class="uk-logo"> <img src="/market/public/assets/images/tp-diamond.png" alt="tutorialspoint" class="foot-logo"> </a> 
+     <div class="clear"></div> 
+     <div class="footer-links text-center"> 
+      <ul class=""> 
+       <li><a href="/about/index.htm" target="_blank"><i class="fa fa-globe"></i> About us</a> </li> 
+       <li><a href="/about/about_terms_of_use.htm" target="_blank"><i class="fa fa-asterisk"></i> Terms of use</a> </li> 
+       <li><a href="/about/about_privacy.htm#cookies" target="_blank"><i class="fa fa-shield-check"></i> Cookies Policy</a> </li> 
+       <li><a href="/about/faq.htm" target="_blank"><i class="fa fa-question-circle"></i> FAQ's</a></li> 
+       <li><a href="https://www.tutorialspoint.com/market/teach_with_us.jsp" target="_blank"><i class="fa fa-book-reader"></i> Teach with Us</a> </li> 
+       <li><a href="/about/contact_us.htm" target="_blank"><i class="fa fa-map-marker-alt"></i> Contact</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="mui-container text-center"> 
+     <div class="mui-col-md-12 mui-col-sm-12"> 
+      <p style="padding-top:15px;"><i class="fa fa-copyright"></i> Copyright 2021. All Rights Reserved.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </div>  
+  <script src="/market/public/assets/js/jquery-3.3.1.min.js"></script> 
+  <script src="/market/public/assets/js/mui/mui-combined.min.js"></script> 
+  <script>
+    var appURL = "https://www.tutorialspoint.com/market/";
+    var baseURL = "https://www.tutorialspoint.com/";
+	
+</script> 
+  <script src="/market/public/assets/js/tp-new.js?v=1638282344"></script> 
+  <script src="/market/public/assets/js/toastr.js"></script>  
+ </body>
+</html>

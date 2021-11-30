@@ -1,0 +1,522 @@
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Online Coding Platform for Websites</title> 
+  <meta name="Description" content="Online Coding Platform for Websites - Edit, Compile, Execute and Share Programs Online to experience the best cloud computing where you can edit, compile, execute and share your varities of projects with the help of simple clicks. You can save your projects at Dropbox, GitHub, GoogleDrive and OneDrive to be accessed anywhere and any time. We support almost all the popular programming languages including Java, JSP, Cold Fusion, C, C++, Pascal, Fortran, PHP, Perl, Ruby, Python and many more other programming languages using your browsers, iPhones, iPads or any other online device like smart TV."> 
+  <meta name="Keywords" content="Free, Online, IDE, compile, execute, programs, online, linux, experience, cloud, computing, source code, dropbox, googledrive, onedrive, programming, java, jsp, cold fusion, c, c++, pascal, fortran, php, perl, ruby, python, browsers, iphones, ipads, smart tv."> 
+  <style>
+.cg-website{background:#fff; margin:-80px 0px 0px 0px; padding:10px 10px 30px 10px; border:1px solid #d6d6d6;}
+.cg-website .cg-title{color:#3f3f3f; font-size:22px; text-align:center; font-weight:600; margin:0px 0px 15px 0px; padding:10px 0px;}
+.cg-website .cg-desc{color:#000; font-size:18px; line-height:26px; font-weight:normal; padding:75px 0px 0px 0px;}
+.cg-website strong{background:#fbfbfb; color:#2b2b2b; font-size:18px; text-align:center; margin:5px 0px 0px 10px; padding:5px 12px; position:relative; top:3px; border:1px solid #c2c2c2; border-radius:90px; -moz-border-radius:90px; z-index:99;}
+.cg-note{background:#fafafa; font-size:14px; color:#000; text-align:center; padding:10px; margin:10px 0px; border:1px solid #d6d6d6;}
+.cg-note ul{margin:0px 0px 0; padding:0px;}
+.cg-note ul li{list-style:circle; margin:0px 0px 0px 40px; padding:0px 0px; text-align:left;}
+.cg-butn{ background: #ffde00; padding: 8px 20px; margin: 0px 0px 30px 0px; }
+header {
+    clear: both;
+    border-top:0px solid #f3cf00!important;
+    background:transparent!important;
+    min-height: 95px!important;
+    padding:0px 0px!important;
+}
+</style> 
+  <link rel="stylesheet" href="/cg/cg.css?v=2"> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="canonical" href="https://www.tutorialspoint.com/coding_platform_for_websites"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/themes/js/script-min-v1.js"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/themes/css/style-min.css?v=1.42122"> 
+  <script src="/themes/home/fontawesome.js?v=1.3"></script> 
+  <!--<link rel="stylesheet" href="https://www.tutorialspoint.com/market/public/assets/js/fontawesome.js?v=1.11">--> 
+  <script>
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #f3cf00 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #f3cf00 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #f3cf00 !important;}
+.submenu-item{ border-bottom: 2px solid #f3cf00 !important; border-top: 2px solid #f3cf00 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#f3cf00; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+  <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="6RAQP-S44QZ-RE8AD-YSYWA-P84NW",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"6RAQP-S44QZ-RE8AD-YSYWA-P84NW";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="da42welipqfisyngszra-f-d20872cee-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"32","ak.cp":"1243695","ak.ai":parseInt("747244",10),"ak.ol":"0","ak.cr":28,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"347c646b","ak.r":36126,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.bpcip":"24.57.171.0","ak.cport":59639,"ak.gh":"104.124.10.133","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1638307426","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==OwjoH1xy5kdxyl33f2B6I77pLJBx7uU8yp4QqqtufMLN+8A3WzcipH6QOiR4kpB07ghC6Su+P8PJz1SwV7FUpU/OvmYU/yzMK1Zzl/8HHCwkMfAvMSzNVxXxoYaKw+yIVbUoHVMptWmNSVkOSFPFmpJT+O6LlAD0fbM6cMmJSzRMd4+5Rf8TCf23br6cRlsPmNyjhMouSk3RZNUe0KBz7Bn9RbJc/Nndp8pF1Xx9r37C/2i3iGwEk2TJ/lU/craPJ027VoCu2cDsW+t84UbJTmetqp+kZcAcAFp1Tisu+xgWr0OQrmssd5+2n8M5uRtTrjPwAXCeWzkEIzg9KCDJKZVCv8haAQZdygNrMRbN5EX9H2fYKn79nHQz+i/BNnOzjftQjXSBX8f9hJQUVfMoVKq6WWkBW5CtDOVqgKxVYfY=","ak.pv":"10","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script>
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header id="header"> 
+   <!-- pop-up --> 
+   <div class="pop-modal overlay-pop popdiv"> 
+    <div class="modal-window small"> 
+     <span class="close" title="close">×</span> 
+     <div class="pop-content"> 
+     </div> 
+     <span class="msg"></span> 
+    </div> 
+   </div> 
+   <div class="wrap_loader"> 
+    <div class="imgLoader">
+     <img src="/videotutorials/images/loader.gif" alt="Tutorialspoint" width="70" height="70">
+    </div> 
+   </div> 
+   <input type="hidden" id="vu" name="vu" value=""> 
+   <!-- pop-up --> 
+   <!-- Top sub-menu Starts Here --> 
+   <div class="mui-appbar mui-container-fulid top-menu"> 
+    <div class="mui-container"> 
+     <div class="top-menu-item home"> 
+      <a href="https://www.tutorialspoint.com/index.htm" target="_blank" title="TutorialsPoint - Home"><i class="fa fa-home"></i> <span>Home</span></a> 
+     </div> 
+     <div class="top-menu-item qa"> 
+      <a href="https://www.tutorialspoint.com/about/about_careers.htm" target="_blank" title="Job @ Tutorials Point"><i class="fa fa-suitcase"></i> <span>Jobs</span></a> 
+     </div> 
+     <div class="top-menu-item tools"> 
+      <a href="https://www.tutorialspoint.com/online_dev_tools.htm" target="_blank" title="Tools - Online Development and Testing Tools"><i class="fa fa-cogs"></i> <span>Tools</span></a> 
+     </div> 
+     <div class="top-menu-item coding-ground"> 
+      <a href="https://www.tutorialspoint.com/codingground.htm" target="_blank" title="Coding Ground - Free Online IDE and Terminal"><i class="fa fa-code"></i> <span>Coding Ground </span></a> 
+     </div> 
+     <div class="top-menu-item current-affairs"> 
+      <a href="https://www.tutorialspoint.com/current_affairs.htm" target="_blank" title="Daily Current Affairs"><i class="fa fa-layer-plus"></i> <span>Current Affairs</span></a> 
+     </div> 
+     <div class="top-menu-item upsc-notes"> 
+      <a href="https://www.tutorialspoint.com/upsc_ias_exams.htm" target="_blank" title="UPSC IAS Exams Notes - TutorialsPoint"><i class="fa fa-user-tie"></i> <span>UPSC Notes</span></a> 
+     </div> 
+     <div class="top-menu-item articles"> 
+      <a href="https://www.tutorialspoint.com/tutor_connect/index.php" target="_blank" title="Top Online Tutors - Tutor Connect"><i class="fa fa-user"></i> <span>Online Tutors</span></a> 
+     </div> 
+     <div class="top-menu-item whiteboard"> 
+      <a href="https://www.tutorialspoint.com/whiteboard.htm" target="_blank" title="Free Online Whiteboard"><i class="fa fa-chalkboard"></i> <span>Whiteboard</span></a> 
+     </div> 
+     <!--<div class="top-menu-item net-meeting">
+<a href="https://www.tutorialspoint.com/netmeeting.php" target="_blank" title="A free tool for online video conferencing"><i class="fal fa-chalkboard-teacher"></i> <span>Net Meeting</span></a> 
+</div>--> 
+     <div class="top-menu-item articles"> 
+      <a href="https://www.tutorix.com" target="_blank" title="Tutorx - The Best Learning App" rel="nofollow"><i class="fa fa-video"></i> <span>Tutorix</span></a> 
+     </div> 
+     <div class="top-menu-item net-meeting"> 
+      <a href="https://www.tutorialspoint.com/market/login.jsp" target="_blank" title="Login TutorialsPoint"><i class="fa fa-sign-in-alt"></i> <span>Login</span></a> 
+     </div> 
+     <div class="social-menu-item"> 
+      <a href="https://www.facebook.com/tutorialspointindia" target="_blank" rel="nofollow" data-placement="bottom" title="tutorialspoint @ Facebook"><i class="fa fa-facebook-f"></i></a> 
+      <a href="https://www.twitter.com/tutorialspoint" target="_blank" rel="nofollow" data-placement="bottom" title="tutorialspoint @ Twitter"><i class="fa fa-twitter"></i></a> 
+      <a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" rel="nofollow" data-placement="bottom" title="tutorialspoint @ Linkedin"><i class="fa fa-linkedin-in"></i></a> 
+      <a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" rel="nofollow" data-placement="bottom" title="tutorialspoint YouTube"><i class="fa fa-youtube"></i></a> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Top sub-menu Ends Here --> 
+   <!-- Top main-menu Starts Here --> 
+   <div class="mui-appbar mui-container-fulid nav-menu mui--appbar-line-height mui--z1" id="logo-menu"> 
+    <div class="mui-container"> 
+     <div class="left-menu"> 
+      <a href="https://www.tutorialspoint.com/index.htm" title="Tutorialspoint"> <img class="tp-logo" alt="tutorialspoint" src="/codingground/images/logo.png"> </a> 
+      <div class="mui-dropdown"> 
+       <a class="mui-btn mui-btn--primary categories" data-mui-toggle="dropdown"><i class="fa fa-th-solid"></i> <span>Categories <span class="fa fa-caret-down mui-caret"></span></span></a> 
+       <ul class="mui-dropdown__menu cat-menu"> 
+        <li> 
+         <ul> 
+          <li><a href="/academic_tutorials.htm"><i class="fa fa-caret-right"></i> Academic Tutorials</a></li> 
+          <li><a href="/big_data_tutorials.htm"><i class="fa fa-caret-right"></i> Big Data &amp; Analytics </a></li> 
+          <li><a href="/computer_programming_tutorials.htm"><i class="fa fa-caret-right"></i> Computer Programming </a></li> 
+          <li><a href="/computer_science_tutorials.htm"><i class="fa fa-caret-right"></i> Computer Science </a></li> 
+          <li><a href="/database_tutorials.htm"><i class="fa fa-caret-right"></i> Databases </a></li> 
+          <li><a href="/devops_tutorials.htm"><i class="fa fa-caret-right"></i> DevOps </a></li> 
+          <li><a href="/digital_marketing_tutorials.htm"><i class="fa fa-caret-right"></i> Digital Marketing </a></li> 
+          <li><a href="/engineering_tutorials.htm"><i class="fa fa-caret-right"></i> Engineering Tutorials </a></li> 
+          <li><a href="/upsc_ias_exams.htm"><i class="fa fa-caret-right"></i> Exams Syllabus </a></li> 
+          <li><a href="/famous_monuments.htm"><i class="fa fa-caret-right"></i> Famous Monuments </a></li> 
+          <li><a href="/gate_exams_tutorials.htm"><i class="fa fa-caret-right"></i> GATE Exams Tutorials</a></li> 
+          <li><a href="/latest_technologies.htm"><i class="fa fa-caret-right"></i> Latest Technologies </a></li> 
+          <li><a href="/machine_learning_tutorials.htm"><i class="fa fa-caret-right"></i> Machine Learning </a></li> 
+          <li><a href="/mainframe_tutorials.htm"><i class="fa fa-caret-right"></i> Mainframe Development </a></li> 
+          <li><a href="/management_tutorials.htm"><i class="fa fa-caret-right"></i> Management Tutorials </a></li> 
+          <li><a href="/maths_tutorials.htm"><i class="fa fa-caret-right"></i> Mathematics Tutorials</a></li> 
+          <li><a href="/microsoft_technologies_tutorials.htm"><i class="fa fa-caret-right"></i> Microsoft Technologies </a></li> 
+          <li><a href="/misc_tutorials.htm"><i class="fa fa-caret-right"></i> Misc tutorials </a></li> 
+          <li><a href="/mobile_development_tutorials.htm"><i class="fa fa-caret-right"></i> Mobile Development </a></li> 
+          <li><a href="/java_technology_tutorials.htm"><i class="fa fa-caret-right"></i> Java Technologies </a></li> 
+          <li><a href="/python_technologies_tutorials.htm"><i class="fa fa-caret-right"></i> Python Technologies </a></li> 
+          <li><a href="/sap_tutorials.htm"><i class="fa fa-caret-right"></i> SAP Tutorials </a></li> 
+          <li><a href="/scripting_lnaguage_tutorials.htm"><i class="fa fa-caret-right"></i>Programming Scripts </a></li> 
+          <li><a href="/selected_reading.htm"><i class="fa fa-caret-right"></i> Selected Reading </a></li> 
+          <li><a href="/software_quality_tutorials.htm"><i class="fa fa-caret-right"></i> Software Quality </a></li> 
+          <li><a href="/soft_skill_tutorials.htm"><i class="fa fa-caret-right"></i> Soft Skills </a></li> 
+          <li><a href="/telecom_tutorials.htm"><i class="fa fa-caret-right"></i> Telecom Tutorials </a></li> 
+          <li><a href="/upsc_ias_exams.htm"><i class="fa fa-caret-right"></i> UPSC IAS Exams </a></li> 
+          <li><a href="/web_development_tutorials.htm"><i class="fa fa-caret-right"></i> Web Development </a></li> 
+          <li><a href="/sports_tutorials.htm"><i class="fa fa-caret-right"></i> Sports Tutorials </a></li> 
+          <li><a href="/xml_technologies_tutorials.htm"><i class="fa fa-caret-right"></i> XML Technologies </a></li> 
+          <li><a href="/multi_language_tutorials.htm"><i class="fa fa-caret-right"></i> Multi-Language</a></li> 
+          <li><a href="/questions_and_answers.htm"><i class="fa fa-caret-right"></i> Interview Questions</a></li> 
+         </ul> </li> 
+       </ul> 
+       <div class="clear"></div> 
+      </div> 
+     </div> 
+     <div class="right-menu"> 
+      <div class="toc-toggle"> 
+       <a href="javascript:void(0);"><i class="fa fa-bars"></i></a> 
+      </div> 
+      <div class="mobile-search-btn"> 
+       <a href="https://www.tutorialspoint.com/index.htm"><i class="fa fa-search"></i></a> 
+      </div> 
+      <!--
+		<div class="search-box">
+		<script async src="https://cse.google.com/cse.js?cx=000263362972888060243:yfed6eu421q"></script>
+		<div class='gcse-search'></div>
+		</div>
+		--> 
+      <div class="search-box-wrap"> 
+       <div class="search-box" style=""> 
+        <div> 
+         <input class="input" type="text" id="search-strings" name="key" placeholder="Search latest courses, ebooks and prime packs..." autocomplete="off"> 
+         <button id="btnSearch"><i class="fa fa-search" title="Search"></i></button> 
+        </div> 
+       </div> 
+       <div class="search-box" id="search-results"></div> 
+       <div class="clear"></div> 
+       <script>
+				$('#search-strings').keyup(function () {
+					var keyword = $('#search-strings').val();
+					if (keyword != "" && keyword.length > 2) {
+						$.ajax({
+							url:"https://search.tutorialspoint.com/market_urls_suggestion.php",
+							method: "POST",
+					   type: 'POST',
+							dataType: "json",
+					   cache:false,
+							data: {
+								'keyword': keyword
+							},
+							error: function (err) {
+								console.log ( err );
+							},
+							success: function (data) {
+								if (data.length > 0) {
+							//var str = '<div class="search_title arrow_search">Search Results</div><ul>';
+							var str = '<div class="search-overlay"><ul>';
+							data.forEach((item) => {
+							   var iconStr = '<i class="fa fa-play-circle"></i>';
+							   if(item.type=='E'){
+								  iconStr = '<i class="fa fa-file-pdf"></i>';
+							   }
+							   if(item.type=='B'){
+								  iconStr = '<i class="fa fa-cubes"></i>';
+							   }
+							   if(item.type=='A' || item.type=='I' || item.type=='P'){ // profile/author/instructor
+								  iconStr = '<i class="fa fa-user"></i>';
+							   }
+							   str = str + '<a href="'+item.url+'" target="_blank"><li class="clsHeadQuestion">'+iconStr+' '+item.name+'</li></a>'; 
+							});
+							str = str + '</ul><br/></div><div class="clear"></div>';
+									$('#search-results').show();
+									$('#search-results').html(str);
+								} else {
+									$('#search-results').hide();
+									$('#search-results').html('');
+								}
+							}
+						});
+					}else{
+						$('#search-results').hide();
+						$('#search-results').html('');
+					}
+				});
+			 $('#btnSearch').click(function(){
+				   var keyword = $('#search-strings').val();
+				   window.location.href = "https://www.tutorialspoint.com/search/"+keyword;
+			 });
+			 $(document).mouseup(function(e) 
+			 {
+				 var container = $('#search-results');            
+				 if (!container.is(e.target) && container.has(e.target).length === 0) 
+				 {
+					 container.hide();
+				 }
+			 });
+			</script> 
+      </div> 
+      <div class="menu-btn videos-btn"> 
+       <a href="https://www.tutorialspoint.com/questions/index.php"><i class="fa fa-location-arrow"></i> <span>Q/A</span></a> 
+      </div> 
+      <div class="menu-btn library-btn"> 
+       <a href="https://www.tutorialspoint.com/tutorialslibrary.htm"><i class="fa fa-books"></i> <span>Library</span></a> 
+      </div> 
+      <div class="menu-btn ebooks-btn"> 
+       <a href="https://store.tutorialspoint.com"><i class="fa fa-book-reader"></i> <span>eBooks</span></a> 
+      </div> 
+      <div class="menu-btn videos-btn"> 
+       <a href="https://www.tutorialspoint.com/courses"><i class="fa fa-video"></i> <span>Courses</span></a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Top main-menu Ends Here --> 
+  </header> 
+  <div style="clear:both;"></div> 
+  <div class="cg_intro"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-12"> 
+      <div class="cg-caption">
+       <span>Coding Platform For Your Website</span>
+       <br> Available for 75+ Programming Languages
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="cg_prdts"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-12 cg_sub"> 
+      <div class="col-md-2 cg_sub_cap"> 
+       <a href="online_html_editor.php"> <img src="codingground/images/cg_html5.png"> </a> 
+      </div> 
+      <div class="col-md-2 cg_sub_cap"> 
+       <a href="online_css_editor.php"> <img src="codingground/images/cg_css3.png"></a> 
+      </div> 
+      <div class="col-md-2 cg_sub_cap"> 
+       <a href="online_jquery_editor.php"> <img src="codingground/images/cg_jquery.png"></a> 
+      </div> 
+      <div class="col-md-2 cg_sub_cap"> 
+       <a href="online_bootstrap_editor.php"> <img src="codingground/images/cg_bootstrap.png"></a> 
+      </div> 
+      <div class="col-md-2 cg_sub_cap"> 
+       <a href="execute_ruby_online.php"> <img src="codingground/images/cg_ruby.png"></a> 
+      </div> 
+      <div class="col-md-2 cg_sub_cap" style="border-right:none;"> 
+       <a href="execute_python_online.php"> <img src="codingground/images/cg_python.png"></a> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+    </div> 
+    <div class="col-md-12 cg-website"> 
+     <div class="cg-title">
+      How does it work for your website?
+     </div> 
+     <div class="col-md-5"> 
+      <div class="cg-desc" style="text-align:right;">
+       Create your program in any of the programming languages available. There is support for more than 75+ languages. Check all available 
+       <a href="codingground.htm" target="_blank"><b>Programming Languages</b></a>
+      </div> 
+     </div> 
+     <div class="col-md-1"> 
+      <img src="https://www.tutorialspoint.com/videotutorials/images/cg_dots_circle_r.jpg"> 
+      <strong>1</strong> 
+     </div> 
+     <div class="col-md-6"> 
+      <img src="https://www.tutorialspoint.com/videotutorials/images/cg_prgm_lang.jpg"> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="col-md-5"> 
+      <img src="https://www.tutorialspoint.com/videotutorials/images/cg_crt_prgm.jpg"> 
+     </div> 
+     <div class="col-md-1"> 
+      <img src="https://www.tutorialspoint.com/videotutorials/images/cg_dots_circle_l.jpg" style="margin:0px 0px 0px 15px;"> 
+      <strong>2</strong> 
+     </div> 
+     <div class="col-md-6"> 
+      <div class="cg-desc" style="text-align:left;">
+       Edit, Compile, Execute and Verify your program. Here is a 
+       <a href="compile_java_online.php" target="_blank"><b>Simple Java Program</b></a>
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="col-md-5"> 
+      <div class="cg-desc" style="text-align:right;">
+       Click Share to generate a short link to be Shared or Embedded in your Website. It is 100% FREE.
+      </div> 
+     </div> 
+     <div class="col-md-1"> 
+      <img src="https://www.tutorialspoint.com/videotutorials/images/cg_dots_circle_r.jpg"> 
+      <strong>3</strong> 
+     </div> 
+     <div class="col-md-6"> 
+      <img src="https://www.tutorialspoint.com/videotutorials/images/cg_embed.jpg"> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="col-md-5"> 
+      <img src="https://www.tutorialspoint.com/videotutorials/images/cg_embed_code.jpg"> 
+     </div> 
+     <div class="col-md-1"> 
+      <img src="https://www.tutorialspoint.com/videotutorials/images/cg_dots_circle_l.jpg" style="margin:0px 0px 0px 15px;"> 
+      <strong>4</strong> 
+     </div> 
+     <div class="col-md-6"> 
+      <div class="cg-desc" style="text-align:left;">
+       Embed the link in your website for your users to edit, compile, execute and verify your program. Here is 
+       <a href="java/java_strings.htm" target="_blank"><b>Sample Usage Page</b></a>
+      </div> 
+     </div> 
+     <br> 
+    </div> 
+    <div class="col-md-12 cg-note"> 
+     <h1>Why Embed Coding Ground in a Website?</h1> 
+     <ul> 
+      <li><p>Coding Ground is loved by millions of programmers around the globe</p></li> 
+      <li><p>It increases user retention at your website</p></li> 
+      <li><p>Your website users feel more confident with your content after verifying Program results online</p></li> 
+      <li><p>Your saved program code will be retained forever, so you can continue using it anywhere anytime</p></li> 
+      <li><p>On top of everything, Coding Ground provides you service 100% free of cost</p></li> 
+     </ul> 
+    </div> 
+    <div class="col-md-12 cg-note"> 
+     <h1>How is Coding Ground being used?</h1> 
+     <p>Tutorials Point makes extensive use of Coding Ground to provide online Compile and Execute functionality for their users.</p> 
+     <a href="https://www.tutorialspoint.com/java/java_strings.htm" target="_blank" class="cg-butn">Check Live Demo</a> 
+     <br> 
+     <br> 
+    </div> 
+   </div> 
+  </div> 
+  <br> 
+  <footer class="inner"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="footer-ribon"> 
+      <span>Extras</span> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Mobile First</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><a class="iphone" href="https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&amp;mt=8" target="_blank" rel="nofollow"><img alt="tutorialspoint iPhone App" src="/images/apple_store.jpg" class="mobile-apps"></a></li> 
+       <li><a class="android" href="https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer" target="_blank" rel="nofollow"><img alt="tutorialspoint Android app" src="/images/google_play.jpg" class="mobile-apps"></a></li> 
+       <li><a class="microsoft" href="http://www.windowsphone.com/s?appid=91249671-7184-4ad6-8a5f-d11847946b09" target="_blank" rel="nofollow"><img alt="tutorialspoint Windows app" src="/images/windows_store.jpg" class="mobile-apps"></a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>About us</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="fa fa-caret-right"></i> <a href="/about/index.htm">Company</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="/about/about_team.htm">Our Team</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="/about/about_careers.htm">Careers</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="/about/about_privacy.htm">Privacy Policy</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="/about/about_cookies.htm">Cookies Policy</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="/about/about_terms_of_use.htm">Terms of use</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="/investors/index.htm">Investors</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Extra Links</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="fa fa-caret-right"></i> <a href="articles">Articles</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="online_dev_tools.htm">Dev Tools</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="free_web_graphics.htm">Free Graphics</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="online_file_conversion.htm">File Conversion</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="shared-tutorials.php">Shared Tutorials</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="https://www.tutorialspoint.com/netmeeting.php">NetMeeting</a></li> 
+       <li><i class="fa fa-caret-right"></i> <a href="https://www.tutorialspoint.com/free_online_whiteboard.htm">Whiteboard</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="contact-details"> 
+       <h4>Contact Us</h4> 
+       <ul class="contact"> 
+        <li><p><i class="fa fa-map-marker-alt"></i> <strong>Address:</strong> 4th Floor, Incor9 Building, Kavuri Telangana 500081</p></li> 
+        <li><p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="about/contact_us.htm">Click Here</a></p></li> 
+        <li><p><i class="fa fa-globe"></i> <strong>Website:</strong> <a href="http://www.tutorialspoint.com">www.tutorialspoint.com</a></p></li> 
+       </ul> 
+      </div> 
+      <div class="social-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="http://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="http://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/about_privacy.htm">Privacy Policy</a></li> 
+         <li><a href="/about/about_cookies.htm">Cookies Policy</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2021. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div>  
+  </footer> 
+  <!--<link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/menu-style-min.css?v=1">--> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/themes/js/custom-min.js?v=1.2"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.greyout').click(function(){
+   $('.wrapLoader').show();
+});
+</script>   
+ </body>
+</html>
